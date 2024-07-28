@@ -2447,21 +2447,21 @@ h5,
 }
 
 img.personal-image {
-  width: 50px; 
-  height: 100px; 
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 50px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
   img.personal-image {
-    max-width: 100%; 
+    max-width: 100%;
   }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
   img.personal-image {
-    max-width: 50%; 
+    max-width: 50%;
   }
 }
 
@@ -2471,8 +2471,7 @@ img.personal-image {
   }
 }
 
-/* .bg-image {
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-} */
+.bg-image2 {
+  background-image: url('../images/hero_1.jpg');
+  background-position: 50% 50% !important;
+}

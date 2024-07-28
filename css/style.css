@@ -2445,3 +2445,28 @@ h5,
   font-size: 15px;
   color: #999;
 }
+
+img.personal-image {
+  width: 50px; 
+  height: 100px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 600px) {
+  img.personal-image {
+    max-width: 100%; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  img.personal-image {
+    max-width: 50%; 
+  }
+}
+
+@media (min-width: 901px) {
+  img.personal-image {
+    max-width: 25%;
+  }
+}

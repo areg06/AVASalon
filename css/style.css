@@ -2453,22 +2453,38 @@ img.personal-image {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
+.img-size {
+  width: 300px;
+  height: 170px;
+}
+
 @media (max-width: 600px) {
   img.personal-image {
     max-width: 100%;
   }
+  /* .img-size {
+    max-width: 25%;
+  } */
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
   img.personal-image {
     max-width: 50%;
   }
+  /* .img-size {
+    max-width: 50%;
+  } */
 }
 
 @media (min-width: 901px) {
   img.personal-image {
     max-width: 25%;
   }
+/* 
+  .img-size {
+    max-width: 100%;
+  } */
 }
 
 .bg-image2 {
@@ -2492,7 +2508,28 @@ th {
   background-color: #f8f8f8;
 }
 
-.img-size {
-  width: 300px;
-  height: 170px;
+.bron {
+  position: fixed;
+  z-index: 3;
+  left: 80%;
+  top: 90vh;
+  transition: 1s;
+}
+
+@media (max-width: 1000px) and (min-width: 751px) {
+  .bron {
+    position: fixed;
+    z-index: 3;
+    left: 75%;
+    top: 90vh;
+  }
+}
+
+@media (max-width: 750px) {
+  .bron {
+    position: fixed;
+    z-index: 3;
+    left: 65%;
+    top: 90vh;
+  }
 }

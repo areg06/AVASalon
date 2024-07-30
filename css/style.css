@@ -2459,13 +2459,29 @@ img.personal-image {
   height: 170px;
 }
 
+.secondImage {
+  height: 450px;
+  width: 320px;
+}
+
+.firstImage {
+  height: 200px;
+  width: 320px;
+}
+
 @media (max-width: 600px) {
   img.personal-image {
     max-width: 100%;
   }
-  /* .img-size {
-    max-width: 25%;
-  } */
+  .secondImage {
+    height: 340px;
+    width: 240px;
+  }
+  
+  .firstImage {
+    height: 150px;
+    width: 240px;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
@@ -2533,12 +2549,4 @@ th {
     left: 65%;
     top: 90vh;
   }
-}
-
-.secondImage {
-  height: 450px;
-}
-
-.firstImage {
-  height: 200px;
 }

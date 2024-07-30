@@ -2490,6 +2490,7 @@ img.personal-image {
 .bg-image2 {
   background-image: url('../images/hero_1.jpg');
   background-position: 50% 50% !important;
+  position: fixed;
 }
 
 table {

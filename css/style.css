@@ -2534,3 +2534,11 @@ th {
     top: 90vh;
   }
 }
+
+.secondImage {
+  height: 450px;
+}
+
+.firstImage {
+  height: 200px;
+}

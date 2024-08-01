@@ -11,6 +11,7 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
@@ -23,10 +24,54 @@
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/style.css">
 
+  <style>
+    .why-us-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+
+    .why-us-section h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .why-us-section .icon {
+      font-size: 40px;
+      color: #ff6347;
+    }
+
+    .why-us-section .feature-box {
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .why-us-section .feature-box:hover {
+      transform: translateY(-10px);
+    }
+
+    .why-us-section .feature-box h3 {
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    .why-us-section .feature-box p {
+      font-size: 16px;
+    }
+
+    .why-us-section .img-years img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
 
   <div class="site-wrap" id="home-section">
 
@@ -38,8 +83,6 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-
-
 
     <header class="site-navbar site-navbar-target" role="banner">
 
@@ -72,7 +115,6 @@
             </nav>
           </div>
 
-
         </div>
       </div>
 
@@ -84,7 +126,8 @@
           <div class="row align-items-center">
             <div class="col-md-7">
               <h1 class="mb-3">О нас</h1>
-              <p>Добро пожаловать в наш салон красоты AVA, где вы найдете идеальное сочетание релаксации и ухода за собой.
+              <p>Добро пожаловать в наш салон красоты AVA, где вы найдете идеальное сочетание релаксации и ухода за
+                собой.
                 Наши профессионалы готовы предложить вам лучшие услуги для вашего здоровья и красоты.</p>
               <p><a href="#scrolledId" class="btn btn-primary">Узнать больше</a></p>
             </div>
@@ -92,9 +135,6 @@
         </div>
       </div>
     </div>
-
-
-
 
     <div class="site-section" id="scrolledId">
       <div class="container">
@@ -107,24 +147,66 @@
               другое.</p>
 
             <div class="social_29128">
-
               <a href="#"><span class="icon-twitter"></span></a>
               <a href="#"><span class="icon-instagram"></span></a>
               <a href="#"><span class="icon-facebook"></span></a>
               <a href="#"><span class="icon-linkedin"></span></a>
-
             </div>
           </div>
           <div class="col-md-6">
             <div class="d-flex align-items-center">
-              <div class="bg-img-1 mr-md-4 mt-md-5" style="background-image: url('images/about_1.jpg'); "></div>
-              <div class="bg-img-1" style="background-image: url('images/about_2.jpg'); "></div>
+              <div class="bg-img-1 mr-md-4 mt-md-5" style="background-image: url('images/about_1.jpg');"></div>
+              <div class="bg-img-1" style="background-image: url('images/about_2.jpg');"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Почему мы Section -->
+    <div class="why-us-section">
+      <div class="container">
+        <h2 class="heading-border-bottom font-weight-bold serif text-black mb-5">Почему мы</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="feature-box text-center">
+              <div class="icon mb-4"><span class="icon-shield"></span></div>
+              <h3>Безопасность и контроль качества</h3>
+              <p>Мы используем только стерильные инструменты в индивидуальной упаковке для каждого гостя. Ежемесячно все
+                специалисты проходят проверку на соблюдение регламентов работы и соблюдения СанПин требований.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="feature-box text-center">
+              <div class="icon mb-4"><i class="fas fa-graduation-cap"></i></div>
+              <h3>Постоянный рост</h3>
+              <p>Опыт всех мастеров подтвержден дипломами и соответствующими сертификатами. У нас введена программа
+                обязательного повышения квалификации.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="feature-box text-center">
+              <div class="icon mb-4"><span class="icon-star"></span></div>
+              <h3>Репутация и рейтинг</h3>
+              <p>За 12 лет работы наш салон сохранил свой рейтинг на картах. Каждый гость может лично связаться с
+                владельцем салона, поделиться обратной связью или поделиться пожеланиями.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="feature-box text-center">
+              <div class="icon mb-4"><i class="fas fa-spa"></i></div>
+              <h3>Комфорт и удовольствие</h3>
+              <p>В салоне установлено современное оборудование, которое позволяет проводить все процедуры с максимальным
+                комфортом и безопасностью. В 2023 году был выполнен ремонт. Теперь наше пространство красоты стало еще
+                красивей, уютней и располагающей к прекрасному настроению.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Team Section -->
     <div class="site-section bg-light">
       <div class="container">
         <div class="row">
@@ -133,7 +215,6 @@
           </div>
         </div>
         <div class="row align-items-stretch">
-
           <div class="col-lg-4 col-md-6 mb-5">
             <div class="post-entry-1 h-100 person-1">
               <img src="images/mkhitaryanAlina.jpg" alt="Image" class="img-fluid personal-image">
@@ -210,7 +291,7 @@
       </div>
     </div>
 
-    <div class="site-section">
+    <!-- <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-5 mb-lg-0">
@@ -229,9 +310,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-
+    </div> -->
 
     <footer class="site-footer bg-image overlay" style="background-image: url('images/hero_1.jpg')">
       <div class="container">
@@ -250,12 +329,10 @@
           </div>
           <div class="col-12">
             <div class="social_29128 white text-center">
-
               <a href="#"><span class="icon-twitter"></span></a>
               <a href="#"><span class="icon-instagram"></span></a>
               <a href="#"><span class="icon-facebook"></span></a>
               <a href="#"><span class="icon-linkedin"></span></a>
-
             </div>
           </div>
         </div>
@@ -263,15 +340,12 @@
           <div class="col-md-12">
             <div class="border-top pt-5">
               <p class="small">
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;
                 <script>document.write(new Date().getFullYear());</script> Все права защищены | <i
                   class="icon-heart text-danger" aria-hidden="true"></i>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </footer>

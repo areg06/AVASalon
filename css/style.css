@@ -2460,7 +2460,6 @@ img.personal-image {
 
 .img-size {
   width: 280px;
-  height: 175px;
 }
 
 .secondImage {
@@ -2488,8 +2487,7 @@ img.personal-image {
     width: 240px;
   }
   .img-size {
-    width: 220px;
-    height: 125px;
+    width: 230px;
   }
 }
 

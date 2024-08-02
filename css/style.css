@@ -2472,7 +2472,7 @@ img.personal-image {
   width: 320px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   img.personal-image {
     max-width: 100%;
   }
@@ -2488,6 +2488,7 @@ img.personal-image {
   }
   .img-size {
     width: 230px;
+    height: 165px;
   }
 }
 

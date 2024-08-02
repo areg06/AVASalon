@@ -2459,8 +2459,8 @@ img.personal-image {
 
 
 .img-size {
-  width: 300px;
-  height: 170px;
+  width: 280px;
+  height: 175px;
 }
 
 .secondImage {
@@ -2477,14 +2477,19 @@ img.personal-image {
   img.personal-image {
     max-width: 100%;
   }
+
   .secondImage {
     height: 340px;
     width: 240px;
   }
-  
+
   .firstImage {
     height: 150px;
     width: 240px;
+  }
+  .img-size {
+    width: 220px;
+    height: 125px;
   }
 }
 
@@ -2492,6 +2497,7 @@ img.personal-image {
   img.personal-image {
     max-width: 50%;
   }
+
   /* .img-size {
     max-width: 50%;
   } */
@@ -2501,7 +2507,8 @@ img.personal-image {
   img.personal-image {
     max-width: 25%;
   }
-/* 
+
+  /* 
   .img-size {
     max-width: 100%;
   } */
@@ -2529,14 +2536,105 @@ th {
   background-color: #f8f8f8;
 }
 
+/* Base styles for .btn2 */
+
+/* Base styles for .bron */
+.btn2 {
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 1.2rem; /* Adjusted for base size */
+  text-decoration: none;
+  width: 20vw; /* This will be adjusted for responsiveness */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600 !important;
+  height: 6vh; /* This will be adjusted for responsiveness */
+  background-color: rgb(179, 113, 0); /* Example background color */
+  color: white;
+  transition: 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: rgb(142, 90, 0); /* Darker shade on hover */
+}
+
+/* Base styles for .bron */
 .bron {
   position: fixed;
   z-index: 3;
-  left: 80%;
-  top: 90vh;
+  left: 75vw;
+  top: 85vh;
   transition: 1s;
+  padding: 10px;
 }
 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .btn2 {
+    font-size: 1.1rem;
+    width: 25vw;
+    height: 7vh;
+  }
+  .bron {
+    left: 70vw;
+    top: 80vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn2 {
+    font-size: 1rem;
+    width: 30vw;
+    height: 8vh;
+  }
+  .bron {
+    left: 65vw;
+    top: 75vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn2 {
+    font-size: 0.9rem;
+    width: 50vw;
+    height: 6vh;
+    padding: 10px 20px;
+  }
+  .bron {
+    left: 60vw;
+    top: 75vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn2 {
+    font-size: 0.8rem;
+    width: 45vw;
+    height: 7vh;
+    padding: 10px 15px;
+  }
+  .bron {
+    left: 50vw;
+    top: 80vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .btn2 {
+    font-size: 0.7rem;
+    width: 55vw;
+    height: 8vh;
+    padding: 10px 10px;
+  }
+  .bron {
+    left: 40vw;
+    top: 85vh;
+  }
+}
+
+
+/* 
 @media (max-width: 1000px) and (min-width: 751px) {
   .bron {
     position: fixed;
@@ -2553,4 +2651,4 @@ th {
     left: 65%;
     top: 90vh;
   }
-}
+} */

@@ -2560,17 +2560,17 @@ th {
 }
 
 /* Base styles for .bron */
-.bron {
+/* .bron {
   position: fixed;
   z-index: 3;
-  left: 75vw;
-  top: 85vh;
+  left: 50% !important;
+  top: 90% !important;
   transition: 1s;
   padding: 10px;
 }
 
 /* Responsive Styles */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .btn2 {
     font-size: 1.1rem;
     width: 25vw;
@@ -2631,7 +2631,7 @@ th {
     left: 40vw;
     top: 85vh;
   }
-}
+} */ */
 
 
 /* 
@@ -2652,3 +2652,36 @@ th {
     top: 90vh;
   }
 } */
+
+.accordion {
+  margin: 20px;
+}
+
+.accordion-header {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #A95700;
+  border-radius: 5px;
+  margin-top: 0.5%;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: transparent;
+  border-top: none;
+  padding: 0 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.careerBtn{
+  font-size: 25px;
+}
+li{
+  cursor: pointer;
+}
+.warning{
+  color: rgb(222, 99, 99) !important;
+}

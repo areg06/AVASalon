@@ -325,3 +325,20 @@ jQuery(document).ready(function($) {
 
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+	const headers = document.querySelectorAll('.accordion-header');
+
+	headers.forEach(header => {
+		header.addEventListener('click', function() {
+			const content = this.nextElementSibling;
+
+			// Toggle between showing and hiding the content
+			if (content.style.maxHeight) {
+				content.style.maxHeight = null;
+			} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+			}
+		});
+	});
+});
